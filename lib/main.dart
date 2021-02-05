@@ -32,9 +32,6 @@ class _MyAppState extends State<MyApp> {
               width: selected ? 100 : 200,
               height: selected ? 200 : 100,
               color: selected ? Colors.red : Colors.green,
-              onEnd: () {
-                AnCont();
-              },
             ),
           ),
         ),
